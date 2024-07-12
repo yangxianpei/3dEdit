@@ -1,0 +1,44 @@
+.draggableTree {
+    background-color: transparent;
+    color: white;
+
+    :global {
+
+
+        .ant-tree-node-selected {
+            background-color: transparent !important;
+            border: none !important;
+        }
+
+        .ant-tree-draggable-icon {
+            display: none !important;
+        }
+
+        .ant-tree-treenode::after {
+            border: none !important;
+        }
+
+        .ant-tree-switcher {
+            // display: none !important;
+            // margin-left: -8px;
+        }
+    }
+
+    .treeTitle:hover {
+        background-color: #3498DB;
+    }
+
+    .treeTitle {
+        display: flex;
+        justify-content: space-between;
+
+        .operbtn {
+            display: flex;
+
+
+            .icon {
+                font-size: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.header {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    .btns,
+    .logo {
+        width: 15%;
+    }
+
+    .tools {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .tool {
+            display: flex;
+            box-sizing: border-box;
+            background-color: #1A1A1A;
+
+            .active {
+                .icon {
+                    svg {
+                        fill: #2980b9
+                    }
+
+                }
+
+                border-bottom: 1px solid #2980b9;
+            }
+
+            .btns {
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+                box-sizing: border-box;
+            }
+        }
+
+    }
+}

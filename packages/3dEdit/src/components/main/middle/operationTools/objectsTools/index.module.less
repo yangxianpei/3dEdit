@@ -1,0 +1,51 @@
+.collapse {
+    height: 100%;
+    color: white;
+    border: none !important;
+
+    border-radius: 0%;
+
+    :global {
+        .ant-collapse-header {
+            color: white !important;
+        }
+
+        .ant-collapse-content,
+        .ant-collapse-content-box {
+            // padding: 0 !important;
+            background-color: #191919 !important;
+            color: white !important;
+        }
+    }
+}
+
+.objects {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    .object {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        .font {
+            font-size: 12px;
+        }
+
+        .icon {
+            svg {
+                height: 20px;
+                width: 20px;
+            }
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["packages/*"],
+        "@/*": ["packages/3dEdit/src/*"]   
+      },
+      "moduleResolution":"Node",
+      "types": [
+        "react",
+        "react-dom"
+      ],
+      "target": "esnext",
+      "module": "esnext",
+      "strict": true,
+      "lib": ["es2015", "dom"],
+      "noEmit":true,
+      "esModuleInterop":true,
+      "allowImportingTsExtensions":true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
